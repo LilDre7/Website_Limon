@@ -1,0 +1,530 @@
+/* Estilos del website */
+/* Web-site echa con desktop.first */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(
+        180deg,
+        rgb(211, 185, 100) 0%,
+        rgba(249,195,40,1) 51%,
+        rgba(245,178,32,1) 100%
+    );
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: gray;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color:#E06927 ;
+}
+
+.socials-1 img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-txt {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.header-txt h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: #424242;
+    margin-bottom: 30px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #f55442;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.btn-1:hover {
+    background-color: #87170b;
+}
+
+.header-img {
+    width: 50%;
+    text-align: center;
+
+}
+
+.header-img img {
+    width: 550px;
+}
+
+/* <!-- section para la segunda parte de la website --> */
+
+.about {
+    padding: 100px 0;
+    background-color: #EFEFEF;
+}
+
+.about-content {
+    display: flex;
+    position: relative;
+}
+
+.ab1 {
+    position: absolute;
+    width: 50px;
+    left: 0;
+    top: 0;
+    rotate: 220deg;
+}
+
+.ab2 {
+    position: absolute;
+    width: 50px;
+    left: 750px;
+    top: 450px;
+    rotate: 380deg;
+}
+
+.ab3 {
+    position: absolute;
+    width: 150px;
+    right: 0;
+
+}
+
+.about-img {
+    width: 50%;
+    text-align: center;
+}
+
+.about-img img {
+    width: 350px;
+}
+
+.about-txt {
+    width: 50%;
+}
+
+h2 {
+    font-size: 80px;
+    line-height: 90px;
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 13px 45px;
+    font-size: 18px;
+    background-color: #E06927;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn-2:hover {
+    background-color: #87170b;
+}
+
+/* <!-- Section para el blog de informacion del Productos --> */
+
+.information {
+    padding: 100px 400px 400px 400px;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+.information-content {
+    position: relative;
+}
+
+.in1 {
+    position: absolute;
+    width: 50px;
+    left: 0;
+    right: 0;
+    rotate: 220deg;
+}
+
+.in2 {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    top: 0;
+    rotate: 40deg;
+}
+
+.in3 {
+    position: absolute;
+    width: 250px;
+    left: 0px;
+    top: 230px;
+    rotate: 324deg;
+}
+
+/* <!-- section sobre la tabla del producto --> */
+
+.contact {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-table {
+    padding: 25px;
+    box-shadow:  0 0 20px rgb(0, 0, 0 , 0.2);
+    text-align: center;
+    width: 700px;
+    margin-top: -400px;
+}
+
+.contact-table span {
+    font-size: 40px;
+    color: #AA7D5E;
+}
+
+.contact-table h3 {
+    font-size: 60px;
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+table {
+    text-align: left;
+}
+
+.ingredients {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.ingredients td, .ingredients th {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+}
+
+.ingredients tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+.ingredients tr:hover {
+    background-color: #DDDDDD;
+}
+
+.ingredients tr {
+    padding: 12px 0;
+    text-align: center;
+}
+
+/* <!-- Parte del formulario --> */
+
+form {
+    display: flex;
+}
+
+.campo {
+    padding: 17px 35px;
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #3F3F3F;
+}
+
+.campo:placeholder {
+    color: #a3aeae;
+    font-family: fantasy;
+}
+
+.form-content  {
+    padding: 100px 0 70px 0;
+    text-align: center;
+}
+
+.form-content h2 {
+    font-size: 50px;
+    color: #3F3F3F;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* <!-- Parte final de la website --> */
+
+
+.footer {
+    border-top:  2px solid #E8E8E8;
+    padding: 50px 0  0  0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.link-img {
+    text-align: center;
+}
+
+.link-img img  {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.socials-2 img {
+    width: 50px;
+    margin: 10px;
+}
+
+.link h3 {
+    font-size: 22px;
+    color: #3F3F3F;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 18px;
+    display: block;
+    color: #3F3F3F;
+    margin-bottom: 20px;
+}
+
+
+.link a:hover {
+    color: #E06927;
+}
+
+.footer-copy {
+    padding: 25px 0;
+    border-top:  1px solid #E8E8E8;
+    text-align:center;
+}
+
+.footer-copy p {
+    color: #0b0b0b;
+    font-size: 19px;
+    margin: 0;
+
+}
+
+/* Aqui los media queris para responsive */
+
+@media ( max-width: 1090px) {
+    .menu {
+        padding: 30px;
+        top: 10px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .socials-1 {
+        display: none;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #bebebe;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #070707;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#E06927 ;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 130px 30px 80px 30px;
+        flex-direction: column;
+    }
+
+    .header-txt {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 250px;
+    }
+
+    /* Section numero 2 */
+
+    .about {
+        padding: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .ab1 , .ab2 , .ab3 {
+        display: none;
+    }
+
+    .about-img {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .about-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .information {
+        padding:  30px 30px 100px 30px;
+    }
+
+    .in1 , .in2 , .in3 {
+        display: none;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .contact-table {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .form-content {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+    
+    .campo {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 30px 30px 0 30px;
+    }
+
+    .link-img {
+        margin-bottom: 15px;
+    }
+
+
+}
